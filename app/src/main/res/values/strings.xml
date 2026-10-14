@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">热点控制</string>
+    <string name="notif_channel_name">热点服务</string>
+    <string name="notif_title">热点管理服务运行中</string>
+    <string name="xposed_description">基于 SoftApHelper，在系统分配 Wi-Fi 热点地址时固定为 192.168.43.1/24</string>
+    <string name="fixed_ip_instructions">固定网关：192.168.43.1（LSPosed）\n请在 LSPosed 中启用“热点控制”，勾选系统框架及本机 Tethering 推荐作用域，然后重启手机。固定 IP 随模块启用，不再由 App 开关控制。</string>
+</resources>

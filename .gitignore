@@ -1,0 +1,21 @@
+.gradle/
+build/
+app/build/
+shim/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Local signing material and packaged artifacts
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.apk
+*.aab
+dist/
+.env
+.env.*
+!*.example
+app/src/main/assets/shim.jar
