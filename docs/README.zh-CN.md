@@ -1,5 +1,7 @@
 # 热点控制工具 (phone-router)
 
+**开发说明：本项目使用 Claude 和 GPT 辅助开发。**
+
 为已 root 且安装 LSPosed 的安卓手机开发的**热点控制 APK + Xposed 模块**：开机自动开启共享移动数据的 WiFi 热点，并提供一个内置网页管理端，连上热点的任意设备用浏览器即可管理热点。通过移植 SoftApHelper 的系统 Hook，将 Wi-Fi 热点网关设为 `192.168.43.1/24`。
 
 > 原 root 补设 IP 版本的历史验证设备：Redmi K40 (alioth) · Android 13 · HyperOS V816 · KernelSU 4.2 (ReSukiSU)。当前 LSPosed 固定 IP 版本需在启用模块、设置作用域并重启后另行验证，不能沿用旧版验证结论。

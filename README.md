@@ -6,6 +6,9 @@ from a browser. The app and web interface are currently in Chinese.
 
 [中文说明](docs/README.zh-CN.md) · [Releases](https://github.com/wfgzsdq/phone-router/releases)
 
+**Development disclosure:** This project was developed with assistance from
+Claude and GPT.
+
 ## Features
 
 - Start, stop, and restart Android's internet-sharing Wi-Fi hotspot.
